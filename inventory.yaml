@@ -1,0 +1,10 @@
+local:
+  hosts:
+    local_nginx:
+      ansible_user: 'vagrant'
+      ansible_host: 192.168.0.10
+cloud:
+  hosts:
+    cloud_nginx:
+      ansible_user: 'nginx'
+      ansible_host: 'hostname'

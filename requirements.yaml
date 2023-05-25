@@ -1,0 +1,6 @@
+roles:
+# Установка роли из ansible-galaxy
+- src: geerlingguy.nginx
+collections:
+# Установка коллекции из ansible-galaxy
+- name: community.general
