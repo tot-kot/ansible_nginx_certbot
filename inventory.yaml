@@ -1,3 +1,4 @@
+---
 local:
   hosts:
     local_nginx:
@@ -7,4 +8,5 @@ cloud:
   hosts:
     cloud_nginx:
       ansible_user: 'nginx'
-      ansible_host: 'hostname'
+      ansible_host: '62.84.122.174'
+...

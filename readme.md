@@ -1,7 +1,8 @@
-## Playbook для установки Nginx proxy с Let's Encrypt SSL сертификатом
+## Playbook для установки Nginx proxy с Let's Encrypt SSL сертификатом для CentOS 7
 #### Устанавливает:
 * Nginx
 * epel-release
+* python3
 * snapd
 * certbot
 

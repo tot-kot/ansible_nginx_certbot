@@ -1,3 +1,4 @@
+---
 nginx_extra_http_options: |
   proxy_buffering    off;
   proxy_set_header   X-Real-IP  $remote_addr;
@@ -31,3 +32,4 @@ nginx_upstreams:
   servers:
   - "10.0.0.5"
   - "10.0.1.5"
+...
